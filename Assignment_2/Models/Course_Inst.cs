@@ -11,6 +11,6 @@ namespace Assignement_2.Models
     {
         public int Inst_ID { get; set; }
         public int Course_ID { get; set; }
-        public string Evaluate { get; set; }
+        public string? Evaluate { get; set; }
     }
 }

@@ -14,14 +14,14 @@ namespace Assignement_2.Models
 
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
         public decimal Salary { get; set; }
 
         [Required]
         [MaxLength(200)]
-        public string Address { get; set; }
+        public string? Address { get; set; }
 
         [Required]
         public decimal HourRateBouns { get; set; }
