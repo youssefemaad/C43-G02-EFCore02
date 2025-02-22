@@ -13,5 +13,10 @@ namespace Assignement_2.Models
         public string? Name { get; set; }
         public string? Description { get; set; }
         public int Top_ID { get; set; }
+
+        // Navigation properties
+        public Topic Topic { get; set; }
+        public ICollection<Student_Course> StudentCourses { get; set; }
+        public ICollection<Course_Inst> CourseInstructors { get; set; }
     }
 }
